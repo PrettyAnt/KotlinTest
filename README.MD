@@ -33,14 +33,14 @@
 - KtBase39    Kotlin语法中对比使用if判断null值情况
 - KtBase40    在Kotlin空合并操作符
 - KtBase41    在Kotlin语法中异常处理与自定义异常特点
-- KtBase42    Kotlin语言的先决条件函数
-- KtBase43    Kotlin语言的subString
-- KtBase44    Kotlin语言的split操作
-- KtBase45    
-- KtBase46    
-- KtBase47    
-- KtBase48    
-- KtBase49    
+- KtBase42    Kotlin语言的先决条件函数  -- 可以使用内置的函数处理异常问题
+- KtBase43    Kotlin语言的subString  两种方式
+- KtBase44    Kotlin语言的split操作 -- 解构操作
+- KtBase45    Kotlin语言的replace完成加密解密操作
+- KtBase46    Kotlin语言的 == 与 === 比较操作的区别
+- KtBase47    Kotlin语言的字符串遍历操作
+- KtBase48    Kotlin语言的数字类型的安全转换函数
+- KtBase49    Kotlin语言中Double转Int与类型格式化
 - KtBase50    
 - KtBase51    
 - KtBase52    

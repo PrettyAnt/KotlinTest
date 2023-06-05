@@ -1,6 +1,6 @@
 package com.prettyant.s2
 
-//TODO Kotlin语言的split操作
+//TODO Kotlin语言的split操作 -- 解构操作
 fun main() {
     val jsonText = "PrettyAnt,CoderKing,ChenYu,WangBei"
     //list 自动类型推断成 list == List<String>

@@ -13,17 +13,22 @@ fun main() {
     try {
         var info: String? = null
 
-        checkException(info)
-
-        println(info!!.length)
-    } catch (e: Exception) {
+//        checkException(info)
+        getData(info)
+//        println(info!!.length)
+    } catch (e: CustomException2) {
         println("羊了个羊: $e")
     }
+}
+
+fun getData(info: String?)  {
+    if (info==null)throw CustomException2("参数为空")
 }
 
 fun checkException(info: String?) {
     info ?: throw CustomException()
 }
 
-class CustomException() : IllegalArgumentException()
+class CustomException : NullPointerException()
+
 class CustomException2(message: String?) : IllegalArgumentException(message)
