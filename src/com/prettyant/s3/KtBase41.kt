@@ -25,4 +25,5 @@ fun checkException(info: String?) {
     info ?: throw CustomException()
 }
 
-class CustomException : IllegalArgumentException("你的代码不够严谨")
+class CustomException() : IllegalArgumentException()
+class CustomException2(message: String?) : IllegalArgumentException(message)

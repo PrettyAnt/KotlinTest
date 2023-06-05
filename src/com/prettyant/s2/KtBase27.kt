@@ -60,20 +60,23 @@ fun main() {
     println(hello3("prettyant", 29))
 
     //------------练习
-
     //一般函数
-    fun test(age: Int): String {
-        return "test --> 年龄：$age\n"
+    fun test(age:Int):String{
+        return "年龄为$age"
     }
     //匿名函数
-    val test2: (Int) -> String = { age ->
-        "test2 --> 年龄：$age\n"
+    var test1:(Int,String)->String={
+      age,name->
+        "年龄为$age,他是$name"
     }
 
-    //匿名函数类型推断
-    val test3 = { age: Int ->
-        "test3 --> 年龄：$age"
+    var test2={
+        age:Int,name:String->
+        "test2-> 年龄为$age,他是$name"
     }
-    print(test(66)+ test2(77)+test3(88))
+
+    println(test(18))
+    println(test1(18, "prettyant"))
+    println(test2(28, "coderking"))
 
 }

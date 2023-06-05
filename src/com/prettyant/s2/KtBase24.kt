@@ -16,14 +16,4 @@ fun main() {
     //第三步：调用此函数
     println(methodAction())
 
-
-    val a1: (name: String, age: Int) -> String={
-        name: String, age: Int -> "返回结果"
-    }
-
-    val a2:(color:String)->Boolean={
-        color: String -> true
-    }
-
-
 }

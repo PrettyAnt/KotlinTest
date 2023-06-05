@@ -6,7 +6,7 @@ package com.prettyant.s1
 fun main() {
     action01("chenyu", 29)
     action02("wangbei", 26)
-    action03()
+    action03(age=3)
     action03(age=1, name = "求求")
 }
 

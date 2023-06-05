@@ -18,7 +18,7 @@
 - KtBase24    Kotlin语言的函数类型&隐式返回学习
 - KtBase25    Kotlin语言的函数参数学习
 - KtBase26    Kotlin语言的it关键字特点
-- KtBase27    Kotlin语言的匿名函数的类型推断---对比了一般函数、匿名函数、匿名函数类型推断 ⭐️⭐️⭐️
+- KtBase27    Kotlin语言的匿名函数的类型推断---对比了一般函数、匿名函数、匿名函数类型推断 ⭐️⭐️⭐️⭐️⭐️
 - KtBase28    Kotlin语言的lambda学习
 - KtBase29    Kotlin语言在函数中定义参数是函数的函数(类似于java的接口回调)
 - KtBase30    Kotlin语言在函数中定义参数是函数的函数(类似于java的接口回调)--历史演变

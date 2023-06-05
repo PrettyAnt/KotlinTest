@@ -13,6 +13,7 @@ fun main() {
     var info: String? = "李小龙"
 //    info = null
     //空合并操作符   xxx ?:"结果为null"    如果xxx等于null，就会执行 ?: 后面的区域
+    //注意，是null不是空字符串
     println(info ?: "结果为null")
 
     //let函数 + 空合并操作符
