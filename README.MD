@@ -41,7 +41,7 @@
 - KtBase47    Kotlin语言的字符串遍历操作
 - KtBase48    Kotlin语言的数字类型的安全转换函数
 - KtBase49    Kotlin语言中Double转Int与类型格式化
-- KtBase50    
+- KtBase50    Kotlin语言的apply内置函数
 - KtBase51    
 - KtBase52    
 - KtBase53    
