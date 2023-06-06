@@ -1,4 +1,4 @@
-package com.prettyant.s2
+package com.prettyant.s3
 
 import java.io.File
 import java.util.*
@@ -12,7 +12,7 @@ fun main() {
     println("info全部转换成小写:${info.lowercase(Locale.getDefault())}\n\n")
 
     //apply内置函数
-    //apply特点: apply始终返回info本身
+    //todo apply特点: apply始终返回info本身
     val infoNew: String = info.apply {
         //一般大部分情况下，匿名函数，都会持有一个it，但是apply函数不会持有it,却都会持有当前this == info 本身
         println("apply 匿名函数里面打印的:$this\n")

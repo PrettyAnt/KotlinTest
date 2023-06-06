@@ -31,7 +31,7 @@
 - KtBase37    在Kotlin中使用带let的安全调用
 - KtBase38    Kotlin语言中的非空弄断言操作符特点
 - KtBase39    Kotlin语法中对比使用if判断null值情况
-- KtBase40    在Kotlin空合并操作符
+- KtBase40    Kotlin空合并操作符 xxx ?: 不为空取本身，否则取?:后面的参数，   let
 - KtBase41    在Kotlin语法中异常处理与自定义异常特点
 - KtBase42    Kotlin语言的先决条件函数  -- 可以使用内置的函数处理异常问题
 - KtBase43    Kotlin语言的subString  两种方式
@@ -42,7 +42,7 @@
 - KtBase48    Kotlin语言的数字类型的安全转换函数
 - KtBase49    Kotlin语言中Double转Int与类型格式化
 - KtBase50    Kotlin语言的apply内置函数
-- KtBase51    
+- KtBase51    Kotlin语言的let内置函数  和apply的区别:apply返回的是本身，let返回的是最后一行
 - KtBase52    
 - KtBase53    
 - KtBase54    

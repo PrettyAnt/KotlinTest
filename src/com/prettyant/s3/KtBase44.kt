@@ -1,4 +1,4 @@
-package com.prettyant.s2
+package com.prettyant.s3
 
 //TODO Kotlin语言的split操作 -- 解构操作
 fun main() {

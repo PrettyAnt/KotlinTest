@@ -1,4 +1,4 @@
-package com.prettyant.s2
+package com.prettyant.s3
 
 /**
  * @author chenyu
@@ -8,7 +8,7 @@ package com.prettyant.s2
  * PackageName : com.prettyant.s2
  * describle :
  */
-//TODO 在Kotlin空合并操作符
+//TODO 在Kotlin空合并操作符 xxx ?: 不为空取本身，否则取?:后面的参数，   let
 fun main() {
     var info: String? = "李小龙"
 //    info = null

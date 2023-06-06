@@ -1,4 +1,4 @@
-package com.prettyant.s2
+package com.prettyant.s3
 
 //TODO Kotlin语言的字符串遍历操作
 //ABCDEFGHIJKLMNOPQRSTUVWXYZ

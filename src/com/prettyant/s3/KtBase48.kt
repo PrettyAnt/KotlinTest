@@ -1,4 +1,4 @@
-package com.prettyant.s2
+package com.prettyant.s3
 
 //TODO Kotlin语言的数字类型的安全转换函数
 fun main() {
