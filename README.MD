@@ -43,11 +43,12 @@
 - KtBase49    Kotlin语言中Double转Int与类型格式化
 - KtBase50    Kotlin语言的apply内置函数
 - KtBase51    Kotlin语言的let内置函数  和apply的区别:apply返回的是本身，let返回的是最后一行
-- KtBase52    
-- KtBase53    
-- KtBase54    
-- KtBase55    
-- KtBase56    
+- KtBase52    Kotlin语言的 run 内置函数
+- KtBase53    Kotlin语言的 with 内置函数
+- KtBase54    Kotlin语言的 also 内置函数
+- KtBase55    Kotlin语言的 takeIf 内置函数  -- 一般情况下，takdIf + 空合并操作符一起使用
+- KtBase56    Kotlin语言的 takeUnless 内置函数  --takeUnless+it.isNullOrBlank()一起使用，可以验证字符串有没有初始化等功能
+- 
 - KtBase57    
 - KtBase58    
 - KtBase59    
