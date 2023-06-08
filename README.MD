@@ -49,20 +49,20 @@
 - KtBase55    Kotlin语言的 takeIf 内置函数  -- 一般情况下，takdIf + 空合并操作符一起使用
 - KtBase56    Kotlin语言的 takeUnless 内置函数  --takeUnless+it.isNullOrBlank()一起使用，可以验证字符串有没有初始化等功能
 - 
-- KtBase57    
-- KtBase58    
-- KtBase59    
-- KtBase60    
-- KtBase61    
-- KtBase62    
-- KtBase63    
-- KtBase64    
-- KtBase65    
-- KtBase66    
-- KtBase67    
-- KtBase68    
-- KtBase69    
-- KtBase70    
+- KtBase57    Kotlin语言的List创建与元素获取学习
+- KtBase58    Kotlin语言的可变List集合学习
+- KtBase59    Kotlin语言的mutator函数学习   +=
+- KtBase60    Kotlin语言的List集合遍历学习 3种方式
+- KtBase61    Kotlin语言的「解构」语法过滤元素学习  最多解构5个
+- KtBase62    Kotlin语言的Set创建与元素获取
+- KtBase63    Kotlin语言的可变Set集合
+- KtBase64    Kotlin语言的集合转换与快捷函数学习
+- KtBase65    Kotlin语言的「数组」类型
+- KtBase66    Kotlin语言的Map的创建
+- KtBase67    Kotlin语言的读取Map的值
+- KtBase68    Kotlin语言的遍历Map学习
+- KtBase69    Kotlin语言的可变Map集合学习  +=  put  getOrPut
+- KtBase70    Kotlin语言的定义类与field关键字学习
 - KtBase71    
 - KtBase72    
 - KtBase73    
@@ -133,12 +133,7 @@
 - KtBase138
 - KtBase139
 - KtBase140
-- KtBase141
-- KtBase142
-- KtBase143
-- KtBase144
-- KtBase145
-- KtBase146
-- KtBase147
-- KtBase148
-- KtBase149
+- Android       Kotlin的简介
+- Android       Kotlin的空检测机制
+- Android       Kotlin的val与var类型推断
+- Android       Kotlin的函数

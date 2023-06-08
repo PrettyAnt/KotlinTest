@@ -1,11 +1,6 @@
 package com.prettyant.s3
 
-import java.io.File
-import java.util.*
-
-
 //TODO Kotlin语言的 takeIf 内置函数  -- 一般情况下，takdIf + 空合并操作符一起使用
-//"ABCDEFGHIJKLMNOPQRSTUVWXYZ"
 fun main() {
     val result = checkPermissionAction("chenyu", "123456")
     println(result)
