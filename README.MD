@@ -63,18 +63,18 @@
 - KtBase68    Kotlin语言的遍历Map学习
 - KtBase69    Kotlin语言的可变Map集合学习  +=  put  getOrPut
 - KtBase70    Kotlin语言的定义类与field关键字学习
-- KtBase71    
-- KtBase72    
-- KtBase73    
-- KtBase74    
-- KtBase75    
-- KtBase76    
-- KtBase77    
-- KtBase78    
-- KtBase79    
-- KtBase80    
-- KtBase81    
-- KtBase82    
+- KtBase71    Kotlin语言的计算属性与防范竞态条件
+- KtBase72    Kotlin语言的主构造函数学习
+- KtBase73    Kotlin语言的主构造函数里定义属性
+- KtBase74    Kotlin语言的次构造函数的学习
+- KtBase75    Kotlin语言的构造函数中默认参数学习
+- KtBase76    Kotlin语言的初始化块学习
+- KtBase77    Kotlin语言的构造函数初始化顺序
+- KtBase78    Kotlin语言的延迟初始化lateinit
+- KtBase79    Kotlin语言的惰性初始化by lazy学习
+- KtBase80    Kotlin语言的初始化陷阱 1-- 学习
+- KtBase81    Kotlin语言的初始化陷阱 2-- 学习
+- KtBase82    Kotlin语言的初始化陷阱 3-- 学习
 - KtBase83    
 - KtBase84    
 - KtBase85    
