@@ -75,14 +75,14 @@
 - KtBase80    Kotlin语言的初始化陷阱 1-- 学习
 - KtBase81    Kotlin语言的初始化陷阱 2-- 学习
 - KtBase82    Kotlin语言的初始化陷阱 3-- 学习
-- KtBase83    
-- KtBase84    
-- KtBase85    
-- KtBase86    
-- KtBase87    
-- KtBase88    
-- KtBase89    
-- KtBase90    
+- KtBase83    Kotlin语言的继承与重载的open关键字学习
+- KtBase84    Kotlin语言的类型转换学习
+- KtBase85    Kotlin语言的智能类型转换
+- KtBase86    Kotlin语言的Any超类学习
+- KtBase87    Kotlin语言的对象声明学习
+- KtBase88    Kotlin语言的对象表达式学习
+- KtBase89    Kotlin语言的伴生对象学习
+- KtBase90    Kotlin语言的嵌套类学习  ---  这一节老师讲的不一定对
 - KtBase91    
 - KtBase92    
 - KtBase93    
