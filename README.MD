@@ -75,6 +75,7 @@
 - KtBase80    Kotlin语言的初始化陷阱 1-- 学习
 - KtBase81    Kotlin语言的初始化陷阱 2-- 学习
 - KtBase82    Kotlin语言的初始化陷阱 3-- 学习
+- 
 - KtBase83    Kotlin语言的继承与重载的open关键字学习
 - KtBase84    Kotlin语言的类型转换学习
 - KtBase85    Kotlin语言的智能类型转换
