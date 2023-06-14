@@ -18,7 +18,7 @@ data class AddClass2(var number1: Int, var number2: Int) {
 }
 
 
-//TODO Kotlin 语言的运算符重载学习
+//TODO Kotlin语言的运算符重载学习
 fun main() {
     //C++语言  +预算符重载就行了   -运算符重载就行了
     //KT 语言  plus代表+运算符

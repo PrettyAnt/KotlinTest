@@ -12,12 +12,12 @@ fun main() {
     val methodAction2: (String, Int) -> String = { name, age ->
         "name: $name age:$age"
     }
-    println(methodAction2("test",0))
-
+    println(methodAction2("test", 0))
 }
-/**
- * fun methodAction(number1 : Int,number2 : Int,number3 : Int):String{
- *      val inputValue = 999
-"       return $inputValue Prettyant 参数1:$number1 参数2:$number2 参数3:$number3"
- * }
- */
+
+fun methodAction(number1: Int, number2: Int, number3: Int): String {
+    val inputValue = 999
+    return "$inputValue Prettyant 参数1:$number1 参数2:$number2 参数3:$number3"
+}
+
+

@@ -15,7 +15,7 @@ class ResponseResultBean1(var msg: String, var code: Int, var data: String)
 data class ResponseResultBean2(var msg: String, var code: Int, var data: String)
 //set get 构造函数  解构操作  copy toString  hashCode  equals
 
-// TODO kotlin 语言的数据类学习
+//TODO Kotlin 语言的数据类学习
 // 1、普通类与数据类toString 背后原理
 // 2、前面学习过的 == 与 ===
 // 3、普通类 == 背后原理

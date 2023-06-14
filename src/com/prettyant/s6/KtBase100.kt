@@ -42,7 +42,7 @@ class KeyBoard() : IUSB {
     override fun insertUSB() = "KeyBoard: $usbVersion,$usbInsertDevices"
 }
 
-//TODO  Kotlin 语言的接口定义
+//TODO  Kotlin语言的接口定义
 // 1. 接口里面的所有成员和接口本身都是public open的,,所以不需要 open ,这个是接口的特殊
 // 2. 接口不能有主构造,反正就是没有构造
 // 3. 实现类不仅仅要重写接口的函数,也要重写接口的成员

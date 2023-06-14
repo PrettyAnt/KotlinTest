@@ -20,9 +20,9 @@
 - KtBase26    Kotlin语言的it关键字特点
 - KtBase27    Kotlin语言的匿名函数的类型推断---对比了一般函数、匿名函数、匿名函数类型推断 ⭐️⭐️⭐️⭐️⭐️
 - KtBase28    Kotlin语言的lambda学习
-- KtBase29    Kotlin语言在函数中定义参数是函数的函数(类似于java的接口回调)
-- KtBase30    Kotlin语言在函数中定义参数是函数的函数(类似于java的接口回调)--历史演变
-- KtBase31    Kotlin语言在函数中定义参数是函数的函数(类似于java的接口回调)--关键字inline内联
+- KtBase29    Kotlin语言在函数中定义参数是函数的函数[类似于java的接口回调]
+- KtBase30    Kotlin语言在函数中定义参数是函数的函数[类似于java的接口回调]--历史演变
+- KtBase31    Kotlin语言在函数中定义参数是函数的函数[类似于java的接口回调]--关键字inline内联
 - KtBase32    Kotlin语言函数引用的学习
 - KtBase33    Kotlin语言的函数类型作为返回类型 -- 关联知识点 KtBase24
 - KtBase34    Kotlin语言的匿名函数与具名函数
@@ -31,7 +31,7 @@
 - KtBase37    在Kotlin中使用带let的安全调用
 - KtBase38    Kotlin语言中的非空弄断言操作符特点
 - KtBase39    Kotlin语法中对比使用if判断null值情况
-- KtBase40    Kotlin空合并操作符 xxx ?: 不为空取本身，否则取?:后面的参数，   let
+- KtBase40    Kotlin语言的[空合并]操作符 xxx ?: 不为空取本身，否则取?:后面的参数，   let
 - KtBase41    在Kotlin语法中异常处理与自定义异常特点
 - KtBase42    Kotlin语言的先决条件函数  -- 可以使用内置的函数处理异常问题
 - KtBase43    Kotlin语言的subString  两种方式
@@ -41,13 +41,13 @@
 - KtBase47    Kotlin语言的字符串遍历操作
 - KtBase48    Kotlin语言的数字类型的安全转换函数
 - KtBase49    Kotlin语言中Double转Int与类型格式化
-- KtBase50    Kotlin语言的apply内置函数
-- KtBase51    Kotlin语言的let内置函数  和apply的区别:apply返回的是本身，let返回的是最后一行
-- KtBase52    Kotlin语言的 run 内置函数
-- KtBase53    Kotlin语言的 with 内置函数
-- KtBase54    Kotlin语言的 also 内置函数
-- KtBase55    Kotlin语言的 takeIf 内置函数  -- 一般情况下，takdIf + 空合并操作符一起使用
-- KtBase56    Kotlin语言的 takeUnless 内置函数  --takeUnless+it.isNullOrBlank()一起使用，可以验证字符串有没有初始化等功能
+- KtBase50    Kotlin语言的 [apply] 内置函数
+- KtBase51    Kotlin语言的 [let] 内置函数  和apply的区别:apply返回的是本身，let返回的是最后一行
+- KtBase52    Kotlin语言的 [run] 内置函数
+- KtBase53    Kotlin语言的 [with] 内置函数
+- KtBase54    Kotlin语言的 [also] 内置函数
+- KtBase55    Kotlin语言的 [takeIf] 内置函数  -- 一般情况下，takdIf + 空合并操作符一起使用
+- KtBase56    Kotlin语言的 [takeUnless] 内置函数  --takeUnless+it.isNullOrBlank()一起使用，可以验证字符串有没有初始化等功能
 - 
 - KtBase57    Kotlin语言的List创建与元素获取学习
 - KtBase58    Kotlin语言的可变List集合学习
@@ -57,16 +57,16 @@
 - KtBase62    Kotlin语言的Set创建与元素获取
 - KtBase63    Kotlin语言的可变Set集合
 - KtBase64    Kotlin语言的集合转换与快捷函数学习
-- KtBase65    Kotlin语言的「数组」类型
+- KtBase65    Kotlin语言的[数组]类型
 - KtBase66    Kotlin语言的Map的创建
 - KtBase67    Kotlin语言的读取Map的值
 - KtBase68    Kotlin语言的遍历Map学习
 - KtBase69    Kotlin语言的可变Map集合学习  +=  put  getOrPut
 - KtBase70    Kotlin语言的定义类与field关键字学习
 - KtBase71    Kotlin语言的计算属性与防范竞态条件
-- KtBase72    Kotlin语言的主构造函数学习
-- KtBase73    Kotlin语言的主构造函数里定义属性
-- KtBase74    Kotlin语言的次构造函数的学习
+- KtBase72    Kotlin语言的[主构造函数]学习
+- KtBase73    Kotlin语言的[主构造函数里定义属性]
+- KtBase74    Kotlin语言的[次构造函数]的学习
 - KtBase75    Kotlin语言的构造函数中默认参数学习
 - KtBase76    Kotlin语言的初始化块学习
 - KtBase77    Kotlin语言的构造函数初始化顺序
@@ -84,56 +84,56 @@
 - KtBase88    Kotlin语言的对象表达式学习
 - KtBase89    Kotlin语言的伴生对象学习
 - KtBase90    Kotlin语言的嵌套类学习  ---  这一节老师讲的不一定对
-- KtBase91    
-- KtBase92    
-- KtBase93    
-- KtBase94    
-- KtBase95    
-- KtBase96    
-- KtBase97    
-- KtBase98    
-- KtBase99    
-- KtBase100
-- KtBase101
-- KtBase102
-- KtBase103
-- KtBase104
-- KtBase105
-- KtBase106
-- KtBase107
-- KtBase108
-- KtBase109
-- KtBase110
-- KtBase111
-- KtBase112
-- KtBase113
-- KtBase114
-- KtBase115
-- KtBase116
-- KtBase117
-- KtBase118
-- KtBase119
-- KtBase120
-- KtBase121
-- KtBase122
-- KtBase123
-- KtBase124
-- KtBase125
-- KtBase126
-- KtBase127
-- KtBase128
-- KtBase129
-- KtBase130
-- KtBase131
-- KtBase132
-- KtBase133
-- KtBase134
-- KtBase135
-- KtBase136
-- KtBase137
-- KtBase138
-- KtBase139
-- KtBase140
+- KtBase91    Kotlin语言的数据类学习
+- KtBase92    Kotlin语言的copy函数学习
+- KtBase93    Kotlin语言的解构声明学习
+- KtBase94    Kotlin语言的运算符重载学习
+- KtBase95    Kotlin语言的枚举类学习
+- KtBase96    Kotlin语言的枚举类定义函数学习
+- KtBase97    Kotlin语言的代数数据类型
+- KtBase98    Kotlin语言的代数数据类型
+- KtBase99    Kotlin语言的数据类使用条件
+- KtBase100   Kotlin语言的接口定义
+- KtBase101   Kotlin语言的接口的默认实现
+- KtBase102   Kotlin语言的抽象类的学习
+- KtBase103   Kotlin语言的定义[泛型类]
+- KtBase104   Kotlin语言的[泛型函数]学习
+- KtBase105   
+- KtBase106   
+- KtBase107   
+- KtBase108   
+- KtBase109   
+- KtBase110   
+- KtBase111   
+- KtBase112   
+- KtBase113   
+- KtBase114   
+- KtBase115   
+- KtBase116   
+- KtBase117   
+- KtBase118   
+- KtBase119   
+- KtBase120   
+- KtBase121   
+- KtBase122   
+- KtBase123   
+- KtBase124   
+- KtBase125   
+- KtBase126   
+- KtBase127   
+- KtBase128   
+- KtBase129   
+- KtBase130   
+- KtBase131   
+- KtBase132   
+- KtBase133   
+- KtBase134   
+- KtBase135   
+- KtBase136   
+- KtBase137   
+- KtBase138   
+- KtBase139   
+- KtBase140   
 - Android       Kotlin的简介
 - Android       Kotlin的空检测机制
 - Android       Kotlin的val与var类型推断
