@@ -25,12 +25,19 @@ fun methodAction1(name: String, method: (Int) -> String) =
     println("name -->> $name method:${method(999)}")
 
 fun main() {
+    //todo 方式一
     val method1: (Int) -> String = { info: Int ->
         "输入的信息为:$info"
     }
     methodAction1("孙悟空", method1)
 
-    println(methodAction1("孙悟空") { info: Int ->
+    //todo 方式二
+    methodAction1("孙悟空") { info: Int ->
         "输入的信息为:$info"
-    })
+    }
+
+    //todo 方式三
+    methodAction1("孙悟空") {
+        "输入的信息为:$it"
+    }
 }

@@ -43,6 +43,7 @@ fun main() {
         Students(it.name, it.age)
     }
     println(r2)
+    //todo
     println("[高级写法]-------------------重新定义一个map函数去实现-----------------")
     //map 函数模仿RxJava的变换操作
     val map :String?= map(110) {
