@@ -98,11 +98,11 @@
 - KtBase102   Kotlin语言的抽象类的学习
 - KtBase103   Kotlin语言的定义[泛型类]
 - KtBase104   Kotlin语言的[泛型函数]学习
-- KtBase105   
-- KtBase106   
-- KtBase107   
-- KtBase108   
-- KtBase109   
+- KtBase105   Kotlin语言的泛型转换实战  [类似RxJava]    java版本见RxJavaTest.java
+- KtBase106   Kotlin语言的泛型约束学习
+- KtBase107   Kotlin语言的vararg关键字(动态参数学习)
+- KtBase108   Kotlin语言的[]操作符学习
+- KtBase109   Kotlin语言的out  - 协变学习
 - KtBase110   
 - KtBase111   
 - KtBase112   

@@ -11,26 +11,43 @@ data class UserInfo(var age: Int, var name: String)
 data class StudentInfo(var age: Int, var name: String)
 
 fun main() {
-//    println(test1(true, UserInfo(150, "chenyu")) { a: UserInfo ->
-//        "输出结果为:$a"
+
+//    println(changeBean(true, UserInfo(728, "chenfei")) {
+//        StudentInfo(it.age, it.name)
 //    })
 
-    println(changeBean(true, UserInfo(728, "chenfei")) {
+//    println(changeBeanT(true, UserInfo(888, "chenfei")) {
+//        StudentInfo(it.age, it.name)
+//    })
+
+    val result = changeBeanplus(true, UserInfo(999, "chenyu")) {
         StudentInfo(it.age, it.name)
+    }?:" 结果为空啊 ... "
+    println(result)
+
+    println(changeBeanplus(true, 666) {
+        "int -> String  [result:$it]"
     })
+    println(changeBeanplus(true, "701") {
+        it.toInt()
+    })
+
 }
 
-fun test1(open: Boolean, userInfo: UserInfo, params: (UserInfo) -> String): String {
-    val any = params(userInfo).takeIf {
-        open
-    } ?: "不满足takIf里面的条件啊.."
-    return any
-}
 
-fun changeBean(open: Boolean, userInfo: UserInfo, params: (UserInfo) -> StudentInfo): Any {
+inline fun changeBean(open: Boolean, userInfo: UserInfo, params: (UserInfo) -> StudentInfo): Any {
     val studentInfo = params(userInfo).takeIf {
         open
     } ?: "不满足takeIf里面的条件哦 ........."
     return studentInfo
-
 }
+
+inline fun <T, O> changeBeanT(open: Boolean, t: T, params: (T) -> O): Any {
+    val any = params(t).takeIf {
+        open
+    } ?: "泛型,不满足takeIf里面的条件....."
+    return any
+}
+
+inline fun <T, O> changeBeanplus(open: Boolean, t: T, params: (T) -> O): O? =
+    if (open) params(t) else null

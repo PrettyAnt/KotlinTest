@@ -6,6 +6,8 @@ package com.prettyant.s6
  * Created on 3:55 PM  14/06/23
  * PackageName : com.prettyant.s6
  * describle :
+ * TODO
+ *  @see com.prettyant.practice.RxJavaTest
  */
 //1.类  isMap  map  takeIf  map 是什么类型
 class KtBase105<T>(val isMap: Boolean = false, val inputType: T) {
@@ -16,7 +18,7 @@ class KtBase105<T>(val isMap: Boolean = false, val inputType: T) {
         mapAction(inputType).takeIf { isMap }
 }
 
-//TODO Kotlin语言的泛型转换实战  [类似RxJava]
+//TODO Kotlin语言的泛型转换实战  [类似RxJava]    java版本见RxJavaTest.java
 //1.类  isMap  map  takeIf  map 是什么类型
 //2.map int -> str 最终接收是什么类型
 //3.map per -> stu 最终接收是什么类型
