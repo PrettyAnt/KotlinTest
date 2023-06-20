@@ -1,0 +1,104 @@
+内置函数的总结
+
+apply:
+ 1.apply函数返回类型，一直都是info本身
+ 2.apply函数的匿名函数里面持有的是 this == info本身
+
+let:
+ 1.let函数返回类型，是根据匿名函数最后一行的变化而变化
+ 2.let函数的匿名函数里面持有的是it == 集合本身
+
+run:   str.run
+  1.run函数返回类型，是根据匿名函数最后一行的变化而变化  此条和let第一条一样
+  2.run函数的匿名函数里面持有的是this == str 本身     此条和apply第二条一样
+
+with:  with(str)   with和run基本上一样，只不过使用的时候不同
+  1.with函数返回类型，是根据匿名函数最后一行的变化而变化
+  2.with函数的匿名函数里面持有的是this == str本身
+
+also:
+  1.also函数返回类型，一直都是str本身
+  2.let函数的匿名函数里面持有的是it == str
+
+
+todo ---------------------apply 与 also 是一个类别的  属于一类的 ------------------------
+ 相同点: apply 与 also 的返回类型是一样的,都是永远返回的是info本身,匿名函数,最后一行无法作为返回值,不影响函数返回类型
+ 不同点: 匿名函数里面  apply{持有this  setFilexxx()}   also{ 持有it  it.setFilexxx()}
+ 应用点:
+         val file本身 = File("xxx").apply{ setFilexxx() ...}.apply{...}.apply{...}.apply{...}  链式调用
+         val file本身 = File("xxx").also{ it.setFilexxx() ...}.also{...}.also{...}.also{...}  链式调用
+
+val info本身 = info.apply{
+    this == info本身
+    ...
+    "PrettyAnt"
+}.apply{
+}
+val info本身 = info.also{
+    it == info本身
+    ...
+    "PrettyAnt"
+}.also{
+}
+
+todo ---------------------let 与 run 是一个类别的  属于一类的 ------------------------
+ 相同点:run 与 let 返回类型,是一样的,都会根据匿名函数最后一行而决定  run 与 let 的返回类型(是根据匿名函数最后一行的变化而变化)
+ 不同点:匿名函数里面 run持有this  let持有it
+ 应用点:
+        info.run{
+            show("内容信息为:$this")
+            show("内容长度为:${this.length}")
+        }
+        info.let{
+            show("内容信息为:$it")
+            show("内容长度为:${it.length}")
+        }
+
+
+val r : Boolean类型 = info.run{ this == info 本身
+    688
+    "prettyant"
+    true//最后一行
+}
+val r : Char类型 = info.let{ it == info 本身
+    it.length
+    688
+    "prettyant"
+    true
+    'S'//最后一行
+}
+
+上面的 run 函数使用环节: info.run{}
+下面的 with 函数使用环节: with(info){}
+
+相同点:with 与 run 与 let 返回类型,是一样的,都会根据匿名函数最后一行而决定  run 与 let 的返回类型(是根据匿名函数最后一行的变化而变化)
+不同点:匿名函数里面 run持有this  let持有it  with 持有this
+应用点:
+       info.run{
+           show("内容信息为:$this")
+           show("内容长度为:${this.length}")
+       }
+       info.let{
+           show("内容信息为:$it")
+           show("内容长度为:${it.length}")
+       }
+       with(info){
+           show("内容信息为:$this")
+           show("内容长度为:${this.length}")
+       }
+
+
+
+  如何选择?
+  a.用于初始化对象或者更改对象属性,可使用apply
+  b.如果将数据指派给接收对象的属性之前验证对象，可使用also
+  c.如果将对象进行空检查并访问或修改其属性，可使用let
+  d.如果是非null的对象并且当函数块中不需要返回值时，可使用with
+  e.如果想要计算某个值，或者限制多个本地变量的范围，则使用run
+
+
+
+
+
+
+  let函数持有it,run函数持有this ,都可以很灵活的把上一个结果自动给下一个函数
