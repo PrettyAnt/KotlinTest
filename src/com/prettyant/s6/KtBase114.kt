@@ -42,8 +42,8 @@ fun main() {
 //todo 如果我们自己写了同样的扩展函数,编译不通过
 
 //todo  Kotlin内置扩展函数,被重复定义,属于覆盖,而且优先使用我们自己的
-public fun File.readLines(charset: Charset = Charsets.UTF_8): List<String> {
-    val result = ArrayList<String>()
-    forEachLine(charset) { result.add(it); }
-    return result
-}
+//public fun File.readLines(charset: Charset = Charsets.UTF_8): List<String> {
+//    val result = ArrayList<String>()
+//    forEachLine(charset) { result.add(it); }
+//    return result
+//}

@@ -103,14 +103,14 @@
 - KtBase107   Kotlin语言的vararg关键字(动态参数学习)
 - KtBase108   Kotlin语言的[]操作符学习
 - KtBase109   Kotlin语言的out  - 协变学习
-- KtBase110   
-- KtBase111   
-- KtBase112   
-- KtBase113   
-- KtBase114   
-- KtBase115   
-- KtBase116   
-- KtBase117   
+- KtBase110   Kotlin语言的 in - [逆变]学习
+- KtBase111   Kotlin语言中使用 in 和 out
+- KtBase112   Kotlin语言的reified关键字学习
+- KtBase113   Kotlin语言的定义扩展函数学习
+- KtBase114   Kotlin语言的超类上定义扩展函数
+- KtBase115   Kotlin语言泛型扩展函数
+- KtBase116   Kotlin语言的标准函数与泛型扩展函数[手写let函数]
+- KtBase117   Kotlin语言的扩展属性
 - KtBase118   
 - KtBase119   
 - KtBase120   

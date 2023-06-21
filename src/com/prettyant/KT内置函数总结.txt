@@ -68,11 +68,11 @@ val r : Char类型 = info.let{ it == info 本身
     'S'//最后一行
 }
 
-上面的 run 函数使用环节: info.run{}
-下面的 with 函数使用环节: with(info){}
-
-相同点:with 与 run 与 let 返回类型,是一样的,都会根据匿名函数最后一行而决定  run 与 let 的返回类型(是根据匿名函数最后一行的变化而变化)
-不同点:匿名函数里面 run持有this  let持有it  with 持有this
+todo ---------------------with ------------------------
+ 上面的 run 函数使用环节: info.run{}
+ 下面的 with 函数使用环节: with(info){}
+ 相同点:with 与 run 与 let 返回类型,是一样的,都会根据匿名函数最后一行而决定  run 与 let 的返回类型(是根据匿名函数最后一行的变化而变化)
+ 不同点:匿名函数里面 run持有this  let持有it  with 持有this
 应用点:
        info.run{
            show("内容信息为:$this")
@@ -87,6 +87,18 @@ val r : Char类型 = info.let{ it == info 本身
            show("内容长度为:${this.length}")
        }
 
+
+// todo ------------------------------------let 与 apply 内部源码原理分析-----------------------------------------
+// 1.let 的返回类型是根据匿名函数的变化而变化(lambda的返回类型变化而变化)
+// 2.匿名函数里面持有的是 it == I == info 本身
+   public inline fun <I,O> I.let(lambda:(I) -> O) : O = lambda(this)
+
+//1.apply的返回类型永远都是I,所以可以链式调用  (lambda的返回类型变化而变化  因为返回的是Unit ,并且没有和lambda关联返回类型)
+//2.匿名函数里面持有的是 this == I ==info本身
+   public inline fun <I> I.apply(lambda:I.() -> Unit) : I {
+    lambda()
+    return this
+   }
 
 
   如何选择?
