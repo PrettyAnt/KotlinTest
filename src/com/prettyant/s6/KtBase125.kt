@@ -17,6 +17,7 @@ fun main() {
     }
 
     println(newList)
+    println("-----------------------------------")
 
     /*
       [你的姓名是:孙悟空,你的名字的长度为:9 在学习72变,
@@ -33,7 +34,7 @@ fun main() {
      */
 
     val newList2 = list.flatMap {
-        listOf("$it 在学习72变", "$it 在调戏嫦娥")
+        listOf("($it)喝酒"," <$it>跳舞")
     }
     println(newList2)
     //todo 原理: 就是把匿名函数 最后一行的返回值(又是一个)加入一个新的集合,新集合的泛型R,并且返回新集合

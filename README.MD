@@ -98,7 +98,7 @@
 - KtBase102   Kotlin语言的抽象类的学习
 - KtBase103   Kotlin语言的定义[泛型类]
 - KtBase104   Kotlin语言的[泛型函数]学习
-- KtBase105   Kotlin语言的泛型转换实战  [类似RxJava]    java版本见RxJavaTest.java
+- KtBase105   Kotlin语言的泛型转换实战  [类似RxJava]  --> [java版本](src/com/prettyant/practice/RxJavaTest.java)
 - KtBase106   Kotlin语言的泛型约束学习
 - KtBase107   Kotlin语言的vararg关键字(动态参数学习)
 - KtBase108   Kotlin语言的[]操作符学习
@@ -110,7 +110,7 @@
 - KtBase114   Kotlin语言的超类上定义扩展函数
 - KtBase115   Kotlin语言泛型扩展函数
 - KtBase116   Kotlin语言的标准函数与泛型扩展函数[手写let函数]
-- KtBase117   Kotlin语言的扩展属性
+- KtBase117   Kotlin语言的[扩展](src/com/prettyant/s6/KtBase117.kt)属性
 - KtBase118   
 - KtBase119   
 - KtBase120   
