@@ -71,7 +71,7 @@
 - KtBase76    Kotlin语言的初始化块学习
 - KtBase77    Kotlin语言的构造函数初始化顺序
 - KtBase78    Kotlin语言的延迟初始化lateinit
-- KtBase79    Kotlin语言的惰性初始化by lazy学习
+- KtBase79    Kotlin语言的惰性初始化[by] lazy学习
 - KtBase80    Kotlin语言的初始化陷阱 1-- 学习
 - KtBase81    Kotlin语言的初始化陷阱 2-- 学习
 - KtBase82    Kotlin语言的初始化陷阱 3-- 学习
@@ -111,23 +111,23 @@
 - KtBase115   Kotlin语言泛型扩展函数
 - KtBase116   Kotlin语言的标准函数与泛型扩展函数[手写let函数]
 - KtBase117   Kotlin语言的[扩展](src/com/prettyant/s6/KtBase117.kt)属性
-- KtBase118   
-- KtBase119   
-- KtBase120   
-- KtBase121   
-- KtBase122   
-- KtBase123   
-- KtBase124   
-- KtBase125   
-- KtBase126   
-- KtBase127   
-- KtBase128   
-- KtBase129   
-- KtBase130   
-- KtBase131   
-- KtBase132   
-- KtBase133   
-- KtBase134   
+- KtBase118   Kotlin语言的可空类型扩展函数
+- KtBase119   kotlin语言的[infix]关键字 [中缀]
+- KtBase120   Kotlin语言的定义扩展文件
+- KtBase121   Kotlin语言的重命名扩展学习
+- KtBase122   Kotlin语言的[apply]函数详解 [手写apply函数]
+- KtBase123   Kotlin语言的DSL学习[扩展函数区别?]
+- KtBase124   Kotlin语言的变换函数 [map]
+- KtBase125   Kotlin语言的变换函数 [flatMap] , (可能讲的不对?)
+- KtBase126   Kotlin语言的过滤函数 [filter] 一般和flatMap联用
+- KtBase127   Kotlin语言的合并函数 [zip]
+- KtBase128   Kotlin语言中使用函数式编程
+- KtBase129   Kotlin语言的互操作性与可控性
+- KtBase130   Kotlin语言的饿汉式 懒汉式[by lazy]
+- KtBase131   Kotlin语言 注解@JvmName
+- KtBase132   Kotlin语言 注解@JvmField 
+- KtBase133   Kotlin语言 注解@JvmOverloads 
+- KtBase134   Kotlin语言 注解@JvmStatic 
 - KtBase135   
 - KtBase136   
 - KtBase137   

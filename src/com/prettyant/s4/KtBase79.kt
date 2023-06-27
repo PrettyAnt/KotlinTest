@@ -9,7 +9,7 @@ package com.prettyant.s4
  */
 class KtBase79 {
     //   >>>>>>>>>>>>>>>>>>>下面是不使用惰性初始化 普通方式(饿汉式)
-//    val databaseData1 = readSQLServerDatabaseAction()
+    val databaseData1 = readSQLServerDatabaseAction()
 
 
     //   >>>>>>>>>>>>>>>>>>>下面是使用惰性初始化 by lazy
